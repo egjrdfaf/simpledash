@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "simpledash",
+  "version": "1.0.0",
+  "name": "SimpleDash",
+  "description": "Мой личный ПвП мод",
+  "entrypoints": {
+    "client": [
+      "com.example.Simpledash"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21"
+  }
+}
