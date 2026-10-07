@@ -1,0 +1,13 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+}
+
+base {
+    archivesName = "Simpledash"
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.21.1"
+    mappings "net.fabricmc:yarn:1.21.1+build.1:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.15.11"
+}
